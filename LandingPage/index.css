@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+.banner {
+    background: url('images/banner.png') center/cover no-repeat;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner a
+{
+    margin-top: 150px;
+}
+.features img {
+    border-radius: 10px;
+    height: 300px;
+    transition: 0.5s ease;
+}
+
+.features img:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 5px #a1a1a1e2,
+    -6px -6px 15px #373636a3;
+    filter: blur(0.7px);
+    filter: contrast(100px);
+}
+
+.offers {
+    background-color: #9ca0a2;
+}
+
+.offer-box {
+    background-color: #495057;
+    border-radius: 10px;
+}
+
+.review blockquote {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.subscribe input {
+    width: 300px;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #212529;
+}
